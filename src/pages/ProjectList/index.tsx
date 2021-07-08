@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { useMount } from '../../hooks/useMount'
 import { User } from '../types'
+import SearchPanel from './components/SearchPanel'
 
 const PATH_URL = process.env.REACT_APP_PATH_URL
 
@@ -24,5 +25,9 @@ export default function ProjectList() {
 
   // }, [param])
 
-  return <div />
+  return (
+    <div>
+      <SearchPanel param={param} persons={persons} setParma={setParma} />
+    </div>
+  )
 }
