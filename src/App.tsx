@@ -1,10 +1,3 @@
-/*
- * @Author: tangzhicheng
- * @Date: 2021-07-13 11:17:30
- * @LastEditors: tangzhicheng
- * @LastEditTime: 2021-07-13 17:20:40
- * @Description: file content
- */
 import './App.css'
 // import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom'
 

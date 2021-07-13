@@ -24,7 +24,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "mock": "json-server --watch __json_server_mock__/db.json --port 8088 --middlewares __json_server_mock__/middleware.js"
+    "mock": "json-server --watch __json_server_mock__/db.json --port 8088 --middlewares __json_server_mock__/middleware.js",
+    "prepare": "husky install"
   },
   "browserslist": {
     "production": [
@@ -47,10 +48,16 @@
     "eslint-plugin-jsx-a11y": "6.4.1",
     "eslint-plugin-react": "7.21.5",
     "eslint-plugin-react-hooks": "1.7.0",
+    "husky": ">=6",
     "json-server": "^0.16.3",
+    "lint-staged": ">=10",
     "prettier": "2.3.2"
   },
   "msw": {
     "workerDirectory": "public"
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx}": "eslint --cache --fix",
+    "*.{js,css,md,ts,tsx}": "prettier --write"
   }
 }

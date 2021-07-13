@@ -1,10 +1,3 @@
-/*
- * @Author: tangzhicheng
- * @Date: 2021-07-13 11:17:30
- * @LastEditors: tangzhicheng
- * @LastEditTime: 2021-07-13 13:54:38
- * @Description: file content
- */
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'

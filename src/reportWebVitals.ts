@@ -1,10 +1,3 @@
-/**
- * @Author: tangzhicheng
- * @Date: 2021-07-13 11:17:30
- * @LastEditors: tangzhicheng
- * @LastEditTime: 2021-07-13 11:57:25
- * @Description: file content
- */
 import { ReportHandler } from 'web-vitals'
 
 const reportWebVitals = (onPerfEntry?: ReportHandler) => {
