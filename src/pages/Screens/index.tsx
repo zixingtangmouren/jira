@@ -1,11 +1,3 @@
-/*
- * @Author: tangzhicheng
- * @Date: 2021-07-13 14:12:11
- * @LastEditors: tangzhicheng
- * @LastEditTime: 2021-07-13 15:42:59
- * @Description: file content
- */
-
 import { useEffect, useState } from 'react'
 import { cleanObject, paramshandle } from '../../utils/common'
 import { useDebounce, useMount } from '../../utils/hooks'

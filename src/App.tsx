@@ -6,17 +6,19 @@
  * @Description: file content
  */
 import './App.css'
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+// import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom'
+
 import Screens from './pages/Screens'
-import LoginScreen from './pages/Screens/LoginScreen'
+import LoginScreen from './pages/LoginScreen'
 
 function App() {
   return (
     <div className="App">
-      {/* <Screens />
-      <LoginScreen /> */}
-      <Router>
+      <Screens />
+      <LoginScreen />
+      {/* <Router>
         <Switch>
+          <Redirect path="/" to="/login"  />
           <Route path="/login">
             <LoginScreen />
           </Route>
@@ -24,7 +26,7 @@ function App() {
             <Screens />
           </Route>
         </Switch>
-      </Router>
+      </Router> */}
     </div>
   )
 }

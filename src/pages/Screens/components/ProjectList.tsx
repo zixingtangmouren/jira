@@ -1,11 +1,3 @@
-/*
- * @Author: tangzhicheng
- * @Date: 2021-07-13 14:33:54
- * @LastEditors: tangzhicheng
- * @LastEditTime: 2021-07-13 15:18:53
- * @Description: file content
- */
-
 import { Project } from '../index'
 
 export interface ProjectListProps {

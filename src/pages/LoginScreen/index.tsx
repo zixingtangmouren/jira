@@ -1,19 +1,17 @@
-/*
- * @Author: tangzhicheng
- * @Date: 2021-07-13 16:15:41
- * @LastEditors: tangzhicheng
- * @LastEditTime: 2021-07-13 16:59:41
- * @Description: file content
- */
-
 import React from 'react'
+import { login } from '../services/api/login'
 
 function LoginScreen() {
   const submitHandle: React.FormEventHandler<HTMLFormElement> = (ev) => {
     ev.preventDefault()
     const username = (ev.currentTarget.elements[0] as HTMLInputElement).value
     const password = (ev.currentTarget.elements[1] as HTMLInputElement).value
-    console.log(username, password)
+
+    login({
+      username,
+      password
+    })
+
   }
 
   return (
